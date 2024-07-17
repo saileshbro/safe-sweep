@@ -1,16 +1,22 @@
-# security_app
+# Safe Sweep
 
-A new Flutter project.
+SafeSweep is an Android application designed to protect your device by wiping all data after a specified number of failed unlock attempts. This ensures that your sensitive information remains secure even if your device falls into the wrong hands.
 
-## Getting Started
+This application was built using Flutter.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Failed Attempt Monitoring:** Tracks the number of failed attempts to unlock the device.
+- **Automatic Data Wipe:** Initiates a complete data wipe after N failed unlock attempts.
+- **Customizable Settings:** Allows users to set the number of failed attempts before wiping the device.
+- **User-Friendly Interface:** Easy to set up and manage.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Thanks and Acknowledgement
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Special thanks to @X-SLAYER for already creating android device policy manager bridge, which was modified make this app possible.
+
+https://github.com/X-SLAYER/device_policy_manager
+
+## Download
+
+https://github.com/ankitkarna99/safe-sweep/raw/main/build/app/outputs/flutter-apk/app-release.apk
